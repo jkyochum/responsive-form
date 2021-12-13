@@ -71,6 +71,11 @@ input[placeholder="Required"]::placeholder {
   text-align: right;
   font-style: italic;
   margin-right: 10px;
+  padding-right: 5px;
+  font-family: Merriweather, serif;
+}
+select {
+  font-family: Merriweather, serif;
 }
 select:nth-of-type(1) {
   color: rgba(78, 78, 78, 0.8);
@@ -112,9 +117,19 @@ input[type="checkbox"] {
   vertical-align: middle;
   margin: 0 5px 0 0;
 }
+#submit-button {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
 input[type="submit"] {
   width: 90%;
-  margin: 20px auto;
+  height: 50px;
+  border-radius: 5px;
+  font-family: Merriweather, serif;
+  color: #fff;
+  background-color: rgb(49, 197, 182);
+  border-style: none;
 }
 footer p {
   text-align: center;
