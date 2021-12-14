@@ -61,7 +61,7 @@ fieldset:nth-of-type(1) label {
   display: block;
 }
 fieldset:nth-of-type(2) {
-  background-color: rgb(121, 230, 170);
+  background-color: rgb(253, 169, 169);
   border-radius: 4px;
 }
 legend {
@@ -116,6 +116,8 @@ textarea:focus,
 input[type="radio"],
 input[type="checkbox"] {
   outline-color: rgb(56, 56, 56);
+  background-color: rgb(169, 238, 199);
+  transition: background-color 0.5s ease-in;
 }
 input[type="radio"],
 input[type="checkbox"] {
@@ -135,6 +137,7 @@ input[type="submit"] {
   color: #fff;
   background-color: rgb(49, 197, 182);
   border-style: none;
+  font-size: 1.1em;
 }
 footer p {
   text-align: center;
