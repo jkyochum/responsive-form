@@ -57,7 +57,8 @@ label {
 fieldset {
   border: none;
 }
-#flex {
+#flex-top,
+#flex-bottom {
   display: flex;
   flex-direction: column;
 }
@@ -65,11 +66,27 @@ fieldset {
   display: flex;
   flex-direction: column;
 }
-/*
+.flex-check,
+.flex-radio,
+.flex-topics {
+  display: flex;
+}
+.flex-check,
+.flex-radio {
+  flex-direction: row;
+  align-items: center;
+}
+.flex-check label,
+.flex-radio label {
+  margin-left: 5px;
+}
+.flex-topics {
+  flex-direction: column;
+}
 fieldset:nth-of-type(2) {
   background-color: rgb(253, 169, 169);
   border-radius: 4px;
-}*/
+}
 legend {
   font-weight: bold;
   font-size: 1.2em;
